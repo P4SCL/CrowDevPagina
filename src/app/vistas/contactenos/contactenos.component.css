@@ -1,0 +1,262 @@
+/* i-contacto */
+
+i {
+    font-size: 1.7em;
+}
+
+p {
+    display: inline-block;
+}
+
+.message,
+.phone,
+.location,
+.socials {
+    display: flex;
+    margin-bottom: .75em;
+}
+
+.c-section {
+    background-color: #f7fbfa;
+}
+
+h2 {
+    font-weight: 500;
+    font-size: 2em;
+    color: var(--gris);
+}
+
+.bg-form h2 {
+    color: var(--blanco) !important;
+}
+
+.social {
+    margin-right: 4em;
+}
+
+.icono {
+    color: var(--color-3);
+    margin-right: 1em;
+    width: 30px;
+}
+
+.texto-icono p {
+    font-weight: 400;
+    color: var(--gris);
+    font-size: 1.4em;
+}
+
+p {
+    margin: 0 !important;
+}
+
+
+/* f-contacto */
+
+
+/* i-form   */
+
+.bg-form {
+    background-color: var(--color-3) !important;
+    padding-bottom: 2em;
+    padding-left: 2em;
+    padding-right: 2em;
+}
+
+.iz {
+    padding: 0 0 !important;
+}
+
+.foto {
+    height: 100%;
+}
+
+.inp {
+    border: none !important;
+    background: var(--blanco);
+    color: var(--color-1) !important;
+}
+
+.inp:focus {
+    outline: none !important;
+    border: none !important;
+}
+
+::-webkit-input-placeholder {
+    color: var(--color-4) !important;
+}
+
+:-moz-placeholder {
+    /* Firefox 18- */
+    color: var(--color-4) !important;
+}
+
+::-moz-placeholder {
+    /* Firefox 19+ */
+    color: var(--color-4) !important;
+}
+
+:-ms-input-placeholder {
+    color: var(--color-4) !important;
+}
+
+textarea {
+    resize: none;
+}
+
+.btn {
+    background: var(--color-3) !important;
+    color: var(--blanco);
+    border: 2.5px solid var(--blanco);
+    width: 10em !important;
+    font-size: 1.1em;
+}
+
+button:hover {
+    background: var(--color-2) !important;
+    color: var(--blanco) !important;
+}
+
+
+/* Eliminar sombra de los inputs */
+
+.inp:focus,
+.inp.form-control:focus {
+    outline: none !important;
+    outline-width: 0 !important;
+    box-shadow: none !important;
+    -moz-box-shadow: none;
+    -webkit-box-shadow: none;
+}
+
+
+/* i-form   */
+
+
+/* i-footer */
+
+footer {
+    background: var(--color-1);
+}
+
+.links {
+    padding: 2em;
+    padding-bottom: 0 !important;
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: var(--blanco);
+    font-size: 1.4em;
+}
+
+a:hover {
+    color: var(--blanco);
+    text-decoration: none;
+}
+
+.mNav2 {
+    display: flex !important;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    list-style: none;
+    margin-bottom: 0;
+}
+
+.nav-link2 {
+    display: block;
+    padding: .5rem 1rem;
+    border-bottom: 2px solid transparent;
+}
+
+.nav-link2:hover {
+    border-bottom: 2px solid var(--blanco);
+}
+
+.copy {
+    font-size: 1.2em;
+    color: var(--blanco);
+}
+
+
+/* i-MEDIAQUERIES */
+
+@media screen and (max-width:900px) {
+    /* i-header */
+    .mNav {
+        padding: 0 !important;
+        display: flex;
+        justify-content: space-around !important;
+        flex-wrap: wrap;
+        list-style: none;
+        margin-bottom: 0;
+    }
+    .mNav li a {
+        color: var(--color-1) !important;
+        text-decoration: none;
+        color: var(--blanco);
+        font-size: 1em !important;
+    }
+    .nav-link:hover {
+        color: var(--color-4) !important;
+        border-bottom: 2px solid transparent;
+    }
+    /* f-header */
+    /* i-waveEffect */
+    .texto-delante {
+        position: absolute;
+        left: 50%;
+        top: 40%;
+        transform: translate(-50%, -50%);
+        -webkit-transform: translate(-50%, -50%);
+        font-size: 3em;
+        color: var(--blanco);
+    }
+    /* f-waveEffect */
+    /* i-contacto */
+    .texto-icono p {
+        font-weight: 400;
+        color: var(--gris);
+        font-size: 1.2em !important;
+    }
+    i {
+        font-size: 1.5em;
+    }
+    h2 {
+        font-size: 1.7em !important;
+    }
+    .btn {
+        background: var(--color-3) !important;
+        color: var(--blanco);
+        border: 2px solid var(--blanco);
+        width: 10em !important;
+        font-size: 1em;
+    }
+    /* f-contacto */
+    /* i-footer */
+    a {
+        text-decoration: none;
+        color: var(--blanco);
+        font-size: 1.6em;
+    }
+    /* f-MEDIAQUERIES */
+}
+
+@media screen and (max-width:550px) {
+    /* i-waveEffect */
+    .contact {
+        font-size: 3em !important;
+        color: var(--blanco);
+        text-align: center;
+    }
+}
+
+@media screen and (max-width:380px) {
+    /* i-waveEffect */
+    .contact {
+        font-size: 2.5em !important;
+        color: var(--blanco);
+        text-align: center;
+    }
+}

@@ -1,0 +1,103 @@
+*,
+html {
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
+}
+
+:root {
+    --color-1: #125899;
+    --color-2: #0f7885;
+    --color-3: #11839c;
+    --color-4: #5eaaa5;
+    --color-5: #95c5d7;
+    --gris: #4f4f4f;
+    --blanco: #ffffff;
+    --color-tarjeta: #F7FBFA;
+}
+
+
+/* i-header */
+
+nav {
+    padding: .5em 0px !important;
+}
+
+.mNav {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    list-style: none;
+    margin-bottom: 0;
+}
+
+.mNav li a {
+    color: var(--color-1) !important;
+    font-size: 1.3em !important;
+}
+
+.nav-link {
+    border-bottom: 2px solid transparent;
+}
+
+.nav-link:hover {
+    color: var(--color-4) !important;
+    border-bottom: 2px solid var(--color-1);
+}
+
+.navbar-toggler {
+    background-color: var(--color-3)!important;
+    border: 1px solid var(--color-1);
+    color: white !important;
+}
+
+
+/* f-header */
+
+
+/* i-waveEffect */
+
+.contenedor {
+    display: flex;
+    width: 100%;
+    height: 60vh;
+    background-image: url('assets/wave-contactenos.jpg');
+    background-color: rgba(1, 15, 29, 0.9);
+    background-blend-mode: soft-light;
+    background-position: center;
+    background-size: fill;
+    background-repeat: no-repeat;
+}
+
+.texto-delante {
+    position: absolute;
+    left: 50%;
+    top: 40%;
+    font-family: 'Roboto', Courier, monospace, sans-serif;
+    font-weight: 400;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    font-size: 3.5em;
+    color: var(--blanco);
+    text-align: center;
+}
+
+.custom-shape-divider-bottom-1602123799 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.custom-shape-divider-bottom-1602123799 svg {
+    position: relative;
+    display: block;
+    width: calc(171% + 1.3px);
+    height: 114px;
+}
+
+.custom-shape-divider-bottom-1602123799 .shape-fill {
+    fill: #FFFFFF;
+}
+
+/* f-waveEffect */

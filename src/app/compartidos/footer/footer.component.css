@@ -1,0 +1,44 @@
+
+footer {
+    background: var(--color-1);
+}
+
+.links {
+    padding: 2em;
+    padding-bottom: 0 !important;
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: var(--blanco);
+    font-size: 1.4em;
+}
+
+a:hover {
+    color: var(--blanco);
+    text-decoration: none;
+}
+
+.mNav2 {
+    display: flex !important;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    list-style: none;
+    margin-bottom: 0;
+}
+
+.nav-link2 {
+    display: block;
+    padding: .5rem 1rem;
+    border-bottom: 2px solid transparent;
+}
+
+.nav-link2:hover {
+    border-bottom: 2px solid var(--blanco);
+}
+
+.copy {
+    font-size: 1.2em;
+    color: var(--blanco);
+}
