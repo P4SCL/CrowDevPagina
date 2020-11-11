@@ -119,6 +119,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "crowdev"
+    }
+  },
+  "defaultProject": "crowdev",
+  "cli": {
+    "analytics": false
+  }
 }
