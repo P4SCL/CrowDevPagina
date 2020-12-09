@@ -191,6 +191,10 @@ p {
     border-radius: 0%!important;
 }
 
+.btn a {
+    font-size: 1em;
+}
+
 button:hover {
     background: var(--color-1) !important;
     color: var(--blanco) !important;
